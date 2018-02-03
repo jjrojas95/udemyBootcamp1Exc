@@ -1,0 +1,25 @@
+{
+  "name": "moviesearchapp",
+  "version": "1.0.0",
+  "description": "Ejercicio de buscar las 10 peliculas que mas gustan en una app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "GeneralSearch:",
+    "http://www.omdbapi.com/?s=guardians+of+the+galaxy&apikey=thewdb",
+    "Search",
+    "whit",
+    "movie",
+    "ID:",
+    "http://www.omdbapi.com/?i=tt3896198&apikey=thewdb"
+  ],
+  "author": "Juan Jose Rojas",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  }
+}
